@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 16px;
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    #nameInput {
+      width: 100%;
+      padding: 10px 12px;
+      font-size: 14px;
+      border: 2px solid #e0e0e0;
+      border-radius: 6px;
+      outline: none;
+      box-sizing: border-box;
+      transition: border-color 0.2s;
+    }
+    
+    #nameInput:focus {
+      border-color: #4285f4;
+    }
+    
+    #nameInput::placeholder {
+      color: #999;
+    }
+    
+    .button-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    #restoreButton {
+      padding: 8px 16px;
+      background-color: #f5f5f5;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+      transition: all 0.2s;
+    }
+    
+    #restoreButton:hover {
+      background-color: #e8e8e8;
+      border-color: #ccc;
+    }
+    
+    #restoreButton:active {
+      background-color: #ddd;
+    }
+    
+    #restoreButton.hidden {
+      display: none;
+    }
+    
+    .status {
+      font-size: 12px;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.3s;
+      padding: 4px;
+      border-radius: 4px;
+      margin-top: 4px;
+    }
+    
+    .status.success {
+      color: #0d9b0d;
+      background-color: #f0f8f0;
+      border: 1px solid #d4edda;
+    }
+    
+    .status.error {
+      color: #d32f2f;
+      background-color: #fef2f2;
+      border: 1px solid #fecaca;
+    }
+    
+    .status.show {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <input 
+      type="text" 
+      id="nameInput" 
+      placeholder="Enter custom tab name..."
+      autofocus
+    >
+    <div class="button-container">
+      <button id="restoreButton" class="hidden">Restore</button>
+    </div>
+    <div id="status" class="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
