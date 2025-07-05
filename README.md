@@ -120,7 +120,7 @@ We welcome contributions! Here's how you can help:
 ### Development Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/tab-renamer-extension.git
+git clone https://github.com/xingfenghe/tab-renamer-extension.git
 cd tab-renamer-extension
 
 # Load the extension in Chrome
@@ -185,8 +185,8 @@ If you find this extension helpful:
 
 - [Chrome Web Store](#) *(Coming Soon)*
 - [Technical Design Document](design.md)
-- [Issues & Bug Reports](https://github.com/yourusername/tab-renamer-extension/issues)
-- [Feature Requests](https://github.com/yourusername/tab-renamer-extension/issues/new?template=feature_request.md)
+- [Issues & Bug Reports](https://github.com/xingfenghe/tab-renamer-extension/issues)
+- [Feature Requests](https://github.com/xingfenghe/tab-renamer-extension/issues/new?template=feature_request.md)
 
 ---
 
