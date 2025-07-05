@@ -185,6 +185,8 @@ If you find this extension helpful:
 
 - [Chrome Web Store](#) *(Coming Soon)*
 - [Technical Design Document](design.md)
+- [Chrome Web Store Submission Guide](chrome-web-store-submission.md)
+- [Privacy Policy](PRIVACY.md)
 - [Issues & Bug Reports](https://github.com/xingfenghe/tab-renamer-extension/issues)
 - [Feature Requests](https://github.com/xingfenghe/tab-renamer-extension/issues/new?template=feature_request.md)
 
